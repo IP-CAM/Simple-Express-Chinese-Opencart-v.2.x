@@ -1,21 +1,21 @@
-#简易订单快递配置
+# Simple and fast configuration 
 
-用于Opencart，可以为订单输入快递编号，无需指定快递公司，客户在前台订单处可以查看到物流信息。
+For OpenCart, you can enter the courier number for your order, you do not need to specify the courier company, and the customer can view logistics information at the front desk order.
 
-快递查询接口是[快递100](http://www.kuaidi100.com)，参考了[这里](https://github.com/jiayouzl/express)，感谢[作者](https://github.com/jiayouzl)。
+The express query interface is [快递 100] (http://www.kuaidi100.com), refer to [here] (https://github.com/jiayouzl/express), thanks [Author] (https: // github. COM / JIAYOUZL).
 
-#安装
+#installation
 
-确保Opencart已经安装vamod。
+Make sure OpenCART has already installed VAMOD.
 
-安装xml文件，然后刷新并为管理员组添加权限。可以在Sales/Orders下找到。
+Install the XML file, then refresh and add permissions to the administrator group. Can be found under Sales / Orders.
 
-#vqmod安装
+#vqmod installation
 
-下载[vqmod for opencart](http://www.opencart.com/index.php?route=extension/extension/info&extension_id=19501)，[vqmod](https://github.com/vqmod/vqmod)
+Download [VQMOD for OpenCart] (http://www.opencart.com/index.php?route=extension/extension/info&ofo ts ion_id=19501), [VQMOD] (https://github.com/vqmod/vqmod)
 
-把vqmod文件放到system同级的目录下，执行example.com/vqmod/install，注意权限；
+Put the VQMOD file in the SYSTEM in the same directory, execute the example.com/vqmod/install, pay attention to permissions;
 
-把vqmod for opencart2 的文件解压替换。
+Replace the file of VQMOD for OpenCart2.
 
-注意：功能还不够，还有不完善的地方：)
+Note: The function is not enough, there is an imperfect place :)
